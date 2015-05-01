@@ -1,4 +1,6 @@
-## Introduction
+## Preface
+
+### Introduction
 
 A package that allows you to manage different types of alerts throughout your application.
 

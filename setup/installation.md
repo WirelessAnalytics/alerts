@@ -1,4 +1,6 @@
-## Installation
+## Setup
+
+### Installation
 
 The best and easiest way to install the Alerts package is with [Composer](http://getcomposer.org).
 

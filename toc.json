@@ -1,10 +1,16 @@
 {
-	"introduction" : [
-		"index",
-		"installation",
-		"integration"
+	"preface" : [
+		"introduction",
+		"features",
+		"examples"
 	],
-	"usage": [
+	"setup" : [
+		"installation"
+	],
+	"integrations" : [
+		"laravel"
+	],
+	"usage" : [
 		"index"
 	]
 }
