@@ -75,7 +75,7 @@ class AlertsServiceProvider extends ServiceProvider
      */
     protected function registerAlerts()
     {
-        $this->app->bindShared('alerts', function($app) {
+        $this->app->singleton('alerts', function($app) {
             $config = $this->app['config']->get('cartalyst.alerts');
 
             $alerts = $this->app->make('Cartalyst\Alerts\Alerts');
